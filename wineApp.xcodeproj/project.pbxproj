@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E8E20F624E65DFA009EFDFE /* wineInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8E20F524E65DFA009EFDFE /* wineInfo.swift */; };
 		5ED609EA24E20B1000716655 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED609E924E20B1000716655 /* AppDelegate.swift */; };
 		5ED609EC24E20B1000716655 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED609EB24E20B1000716655 /* SceneDelegate.swift */; };
 		5ED609EE24E20B1000716655 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED609ED24E20B1000716655 /* ContentView.swift */; };
 		5ED609F024E20B1600716655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ED609EF24E20B1600716655 /* Assets.xcassets */; };
 		5ED609F324E20B1600716655 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ED609F224E20B1600716655 /* Preview Assets.xcassets */; };
 		5ED609F624E20B1600716655 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ED609F424E20B1600716655 /* LaunchScreen.storyboard */; };
+		5EFF178124E26EC700B0752E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFF178024E26EC700B0752E /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E8E20F524E65DFA009EFDFE /* wineInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wineInfo.swift; sourceTree = "<group>"; };
 		5ED609E624E20B1000716655 /* wineApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wineApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ED609E924E20B1000716655 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5ED609EB24E20B1000716655 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		5ED609F224E20B1600716655 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5ED609F524E20B1600716655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5ED609F724E20B1600716655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EFF178024E26EC700B0752E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				5ED609E924E20B1000716655 /* AppDelegate.swift */,
 				5ED609EB24E20B1000716655 /* SceneDelegate.swift */,
 				5ED609ED24E20B1000716655 /* ContentView.swift */,
+				5EFF178024E26EC700B0752E /* DetailView.swift */,
+				5E8E20F524E65DFA009EFDFE /* wineInfo.swift */,
 				5ED609EF24E20B1600716655 /* Assets.xcassets */,
 				5ED609F424E20B1600716655 /* LaunchScreen.storyboard */,
 				5ED609F724E20B1600716655 /* Info.plist */,
@@ -102,7 +108,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = ODM;
 				TargetAttributes = {
 					5ED609E524E20B1000716655 = {
@@ -147,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ED609EA24E20B1000716655 /* AppDelegate.swift in Sources */,
+				5E8E20F624E65DFA009EFDFE /* wineInfo.swift in Sources */,
+				5EFF178124E26EC700B0752E /* DetailView.swift in Sources */,
 				5ED609EC24E20B1000716655 /* SceneDelegate.swift in Sources */,
 				5ED609EE24E20B1000716655 /* ContentView.swift in Sources */,
 			);
@@ -192,6 +200,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -252,6 +261,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
